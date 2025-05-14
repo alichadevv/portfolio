@@ -26,9 +26,7 @@ const ProjectDetail = withRouter(
                     <Image src={`/images/projects/${getProject.img}.png`} priority layout="fill" alt={getProject.name} className="relative" />
                   </div>
                   <div className="flex w-full justify-between bg-primary-dark text-center font-semibold text-primary-light">
-                    </a>
                     <div className="w-[5px] bg-primary-light" />
-                    </a>
                   </div>
                 </div>
 
