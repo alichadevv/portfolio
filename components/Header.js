@@ -10,7 +10,7 @@ const Header = () => {
   const router = useRouter();
   const navLinks = [
     { title: 'Home', path: '/' },
-    { title: 'Class', path: '/class' },
+    { title: 'Class', path: '/works' },
     { title: 'Contact', path: '/contact' },
   ];
 
