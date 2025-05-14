@@ -36,10 +36,8 @@ const Works = () => {
                 <div className="py-2 text-xl font-medium text-primary-dark">{project.name}</div>
                 <div className="flex w-full justify-between px-3 pt-1 pb-4">
                   <a href={project.demo} target="_blank" rel="noreferrer">
-                    <span className="rounded-md border-2 border-primary-dark px-3 py-2 font-semibold text-primary-dark transition-all duration-500 hover:bg-primary-dark hover:text-primary-light">View Demo</span>
                   </a>
                   <a href={project.sourceCode} target="_blank" rel="noreferrer">
-                    <span className="rounded-md border-2 border-primary-dark px-1 py-2 font-semibold text-primary-dark transition-all duration-500 hover:bg-primary-dark hover:text-primary-light">Source Code</span>
                   </a>
                 </div>
               </motion.div>

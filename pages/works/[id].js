@@ -26,12 +26,8 @@ const ProjectDetail = withRouter(
                     <Image src={`/images/projects/${getProject.img}.png`} priority layout="fill" alt={getProject.name} className="relative" />
                   </div>
                   <div className="flex w-full justify-between bg-primary-dark text-center font-semibold text-primary-light">
-                    <a href={getProject.demo} target="_blank" rel="noreferrer" className="w-[238px] rounded-bl-lg border-2 border-primary-dark py-1 transition-all duration-500 hover:bg-primary-light hover:text-primary-dark">
-                      <span>View Demo</span>
                     </a>
                     <div className="w-[5px] bg-primary-light" />
-                    <a href={getProject.sourceCode} target="_blank" rel="noreferrer" className="w-[238px] rounded-br-lg border-2 border-primary-dark py-1 transition-all duration-500 hover:bg-primary-light hover:text-primary-dark">
-                      <span>Source Code</span>
                     </a>
                   </div>
                 </div>
